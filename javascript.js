@@ -7,7 +7,7 @@ $("#f1").hide();
       photo        = document.querySelector('#photo'),
   //    ff        = document.querySelector('#ff'),
       clik  = document.querySelector('#clik'),
- //     change=document.querySelector('#change'),
+      downloadLnk=document.querySelector('#downloadLnk'),
       crop=document.querySelector('#crop'),
       width = 400,
       height = 0;
@@ -66,4 +66,10 @@ $("#f1").hide();
     crop.addEventListener('click', function(evt){
         freeform();evt.preventDefault();
     },false);
+    
+    function download() {
+    var dt = canvas1.toDataURL('image/jpeg');
+    this.href = dt;
+};
+downloadLnk.addEventListener('click', download, false);
 })();
