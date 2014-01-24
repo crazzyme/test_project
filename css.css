@@ -1,0 +1,24 @@
+#page1
+{background-image:url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-frc3/34999_532225466805502_455127010_n.jpg?lvh=1');
+    background-color:black;
+    background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+   
+}
+#canvas1{
+    border:10px;border-style:solid;color:Red;
+}
+#canvas{
+    border:10px;
+    border-style:solid;color:White;
+}
+h5{
+    text-align: center;
+   color:skyblue;
+    font-size:20px;
+}
+#x1,#x2,#y1,#y2{
+    font-color:black;
+    font-size:20px;
+}
